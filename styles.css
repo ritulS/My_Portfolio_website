@@ -144,4 +144,15 @@
 
     }
 
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar__toggle .bar::before,
+    .navbar__toggle .bar::after {
+        display: block;
+        cursor: pointer;
+    }
+
 }
